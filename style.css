@@ -43,7 +43,7 @@ form div {
 
 form label {
   opacity: 0.6;
-  font-size: clamp(1px, 4vmin, 20px);
+  font-size: clamp(1px, 4vmin, 17px);
   display: block;
 }
 
@@ -129,7 +129,7 @@ main:has(input#inputccv:focus) .card,
   transform: rotateY(180deg);
 }
 .front .chip {
-  width: clamp(20px, 4vmin, 40px);
+  width: clamp(20px, 6vmin, 70px);
  
   /* position: absolute;
   top: -40px; */
@@ -142,7 +142,7 @@ main:has(input#inputccv:focus) .card,
 }
 .card .label {
   display: block;
-  font-size: clamp(1px, 4vmin, 12px);
+  font-size: clamp(10px, 4vmin, 10px);
   opacity: 0.8;
 }
 .card span {
